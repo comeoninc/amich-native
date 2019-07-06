@@ -29,11 +29,10 @@
             ],
             "styles": [
               {
-                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
+                "input": "src/assets/themes/material/amix.css"
               },
-              "node_modules/mobilebone/src/mobilebone.animate.css",
-              "node_modules/mobilebone/src/mobilebone.css",
-              "src/styles.scss"
+	      "src/assets/themes/material/variables.scss",
+	      "src/styles.scss"
             ],
             "scripts": [
               "node_modules/mobilebone/src/mobilebone.js"
