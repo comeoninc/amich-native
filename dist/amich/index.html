@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Amich</title>
+  <base href="/">
+<link rel="stylesheet" href="mobilebone.css">
+<script src="mobilebone.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body> 
+<div id="pageHome" class="page out" data-onpagefirstinto="home" data-animationstart="start">
+  <app-root></app-root>
+  <h1>{{title}}</h1>
+
+<button kendoButton (click)="onButtonClick()" [primary]="true">My Kendo UI Button</button>
+<script>
+Mobilebone.captureLink = false;
+</script>
+<script src="runtime-es2015.js" type="module"></script><script src="polyfills-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule></script><script src="polyfills-es5.js" nomodule></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule></script><script src="vendor-es2015.js" type="module"></script><script src="main-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule></script><script src="main-es5.js" nomodule></script></body>
+</html>

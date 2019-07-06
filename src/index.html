@@ -4,11 +4,20 @@
   <meta charset="utf-8">
   <title>Amich</title>
   <base href="/">
+<link rel="stylesheet" href="mobilebone.css">
+<script src="mobilebone.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<body>
+<body> 
+<div id="pageHome" class="page out" data-onpagefirstinto="home" data-animationstart="start">
   <app-root></app-root>
+  <h1>{{title}}</h1>
+
+<button kendoButton (click)="onButtonClick()" [primary]="true">My Kendo UI Button</button>
+<script>
+Mobilebone.captureLink = false;
+</script>
 </body>
 </html>
